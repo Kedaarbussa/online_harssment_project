@@ -1,0 +1,22 @@
+@"
+# Python virtual environment
+venv/
+.env
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model artifacts (uncomment if you DON'T want to store pickles in repo)
+# *.pkl
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+"@ | Out-File -FilePath .\.gitignore -Encoding UTF8
